@@ -167,7 +167,7 @@ class FrpcManagerWindow(QMainWindow):
 
     def download_and_extract_frp(self):
         try:
-            url = 'http://alist.linyun.v6.navy/d/%E5%88%86%E4%BA%AB/frp.zip'
+            url = 'https://dlink.host/lanzou/aHR0cHM6Ly94aWFvZmVpc2h1LmxhbnpvdXEuY29tL2lURmNlMXAyOWs1aSZwYXNzQ29kZT14cG1zbA.zip'
             response = requests.get(url)
             with open('frp.zip', 'wb') as f:
                 f.write(response.content)
